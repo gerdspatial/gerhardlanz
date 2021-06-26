@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+
+<head>
+ 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Gerhard Lanz">
+	<meta name="description" content="he/him">
+        
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="mask-icon" href="/assets/favicon.svg" color="#333">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/manifest.webmanifest">
+        
+	<link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.rel='stylesheet'">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+        
+	{% feed_meta %}
+
+    <title>{% if page.permalink == '/' %}{{ site.title }}{% else %}{{ page.title }} • {{ site.title }}{% endif %}</title>
+    
+</head>
+
+<body>
+    
+    <a name="top"></a>
+
+	<div class="container">
+
+		<div class="nav">
+			<nav><small>
+                02 May 2021—12:18 PM (NZDT)
+            </small></nav>
+		</div>
+        
+        <div class="h-entry">{{ content }}<br></div>
+
+        <div class="bottom"><br>
+            <span><small>
+                <p class="light" margin: 0>☼ Light Mode</p>
+                <p class="dark" margin: 0>☾ Dark Mode</p>
+                Last updated {{ page.last-modified-date | date: '%B %Y' }}<br>
+                <a href="#top">↑ Back to top</a><br>
+            </small></span>
+        </div>
+        
+		<div class="footer">
+			<footer>
+                <span><small>
+                © 2019–2021<br>
+                Content licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a><br>
+                Source code licenced under <a rel="license" href="https://github.com/gerdspatial/gerhardla.nz/blob/master/LICENSE">MIT</a><br>
+                </span></small>
+            </footer>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

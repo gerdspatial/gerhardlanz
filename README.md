@@ -2,27 +2,19 @@
 layout: default
 permalink: /
 ---
-
-# GERHARD LA(dot)NZ
+# GERHARD LA<i>(dot)</i>NZ
 (b. MCMXCII, New Zealand – )
 
-## he/him
+## <i>he/him</i>
 
-I do long walks. I don’t do social media.
-<br>
-<br>
-→ [Blog](/blog/)
-→ [Downloads](/downloads/)
-→ [Newsletter](https://groundtruth.gerhardla.nz/)
-→ [Now](/now/)
-<br>
-<br>
+### I do long walks. I <i>don’t</i> do social media.
+
+→ [Blog](/blog/)<br>
+→ [Downloads](/downloads/)<br>
+→ [Newsletter](https://groundtruth.gerhardla.nz/)<br>
+→ [Now](/now/)<br>
+
 [mail@gerhardla.nz](mailto:mail@gerhardla.nz)
-<br>
-<br>
-→ [Colophon](/colophon/)
-→ [Privacy](/privacy/)
 
-
-
-# gerhardlanz
+→ [Colophon](/colophon/)<br>
+→ [Privacy](/privacy/)<br>

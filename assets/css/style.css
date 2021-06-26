@@ -1,0 +1,140 @@
+@media (prefers-color-scheme: light) {
+body {
+--a-link-color: #00E;
+--a-visited-color: #551A8B;
+--background-color: #fafafa;
+--body-color: #212121;
+--code-color: #dcdcdc;
+--letter-spacing: 0
+}
+.dark {
+display: none
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body {
+--a-link-color: #03a9f4;
+--a-visited-color: #9575cd;
+--background-color: #212121;
+--body-color: #fafafa;
+--code-color: #333;
+--letter-spacing: .061em
+}
+.light {
+display: none
+}
+}
+
+html {
+font-size: 100%
+}
+
+a:link,a:visited {
+color: inherit
+}
+
+.bottom {
+display: inline-block;
+position: absolute;
+bottom: 0;
+width: 100%;
+padding: 1em 0;
+font-size: .889em
+}
+
+.dark, .light{
+margin: 0
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+background: var(--background-color);
+color: var(--body-color);
+line-height: 1.65;
+letter-spacing: var(--letter-spacing);
+height: 100%;
+margin: 1em;
+overflow: auto
+}
+
+p {
+width: 40em;
+margin-bottom: 1.15rem
+}
+
+h1,h2,h3,h4,h5 {
+font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+font-weight: 400
+}
+
+h1 {
+font-size: 3em;
+line-height: 1;
+margin-top: 0;
+margin-bottom: -1rem
+}
+
+h2,h3,h4,h5 {
+font-size: 100%
+}
+
+code {
+font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+background-color: var(--code-color);
+font-size: 80%;
+margin-right: 2px;
+padding: .2em .3em;
+white-space: nowrap
+}
+
+pre code {
+background-color: var(--code-color);
+display: inline-block;
+font-size: 80%;
+line-height: 1.65em;
+margin: auto -1em;
+padding: .65em 1em;
+white-space: pre-wrap;
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+word-wrap: break-word
+}
+
+ol {
+width: 40em;
+list-style-position: outside;
+padding: 1
+}
+
+ul {
+width: 40em;
+list-style-position: outside;
+list-style-type: circle;
+padding: 1
+}
+
+table,td,th {
+border-collapse: collapse;
+border-top: 1px solid var(--body-color);
+border-bottom: 1px solid var(--body-color)
+}
+
+nav {
+display: inline-block;
+float: right;
+padding-bottom: 3em;
+font-size: .889em
+}
+
+footer {
+position: absolute;
+transform-origin:bottom right;
+right:0;
+bottom:0;
+transform: rotate(-90deg) translateX(100%);
+padding: 1em;
+font-size: .889em
+}
+
