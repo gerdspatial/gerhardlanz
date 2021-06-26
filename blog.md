@@ -6,7 +6,7 @@ permalink: /blog/
 <br>
 
 → [RSS](https://gerhardla.nz/feed.xml)<br>
-→ [JSON](https://feed2json.org)<br>
+→ [JSON](https://feed2json.org/convert?url=https%3A%2F%2Fgerhardla.nz%2Ffeed.xml)<br>
 
 <ul>
   {% for post in site.posts %}
