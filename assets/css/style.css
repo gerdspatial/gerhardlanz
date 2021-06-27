@@ -86,6 +86,7 @@ font-size: 80%;
 margin-right: 2px;
 padding: .2em .3em;
 white-space: nowrap
+width: 40em;
 }
 
 pre code {
@@ -100,6 +101,7 @@ white-space: -moz-pre-wrap;
 white-space: -pre-wrap;
 white-space: -o-pre-wrap;
 word-wrap: break-word
+width: 40em;
 }
 
 ol {

@@ -8,9 +8,7 @@ permalink: /privacy/
 
 This website aspires to the speed and privacy of the printed page. This website is [GDPR compliant](https://gdpr.eu/). This website is ad-free and does not use any tracking scripts  nor does it collect, use, or share any personal data.
 
-## PGP Key
-
-### Expires and is renewed annually. 
+## PGP Key (expires and is renewed annually)
 
 Key ID: `0x00FE3BF0A45D1754`
 
