@@ -32,7 +32,11 @@
 
 		<div class="nav">
 			<nav><small>
-                02 May 2021—12:18 PM (NZDT)
+                <script language="javascript">
+                 var today = new Date();
+                 var today = today.toUTCString();
+                 document.write(today);
+                 </script>
             </small></nav>
 		</div>
         
@@ -42,7 +46,7 @@
             <span><small>
                 <p class="light" margin: 0>☼ Light Mode</p>
                 <p class="dark" margin: 0>☾ Dark Mode</p>
-                Last updated June 2021<br>
+                Last updated {{ "now" | date: "%B %Y" }}<br>
                 <a href="#top">↑ Back to top</a><br>
             </small></span>
         </div>

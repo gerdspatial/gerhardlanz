@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /
+date: 2016-03-23T10:20:00Z
 ---
 # GERHARD LA<i>(dot)</i>NZ
 (b. MCMXCII, New Zealand – )

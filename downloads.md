@@ -4,7 +4,9 @@ permalink: /downloads/
 ---
 # Downloads
 <br>
-## <i>Not to be used for navigation</i>
+I record my hikes using a [GNSS](https://en.m.wikipedia.org/wiki/Satellite_navigation) receiver. Recorded tracks are available to download below as [.gpx files](https://www.topografix.com/gpx_for_users.asp). I use [Simple GPX](https://simple-gpx.herokuapp.com/) to remove timestamps and simplify tracks to 20 m (66 ft) accuracy. I contribute these files to [OpenStreetMap](https://www.openstreetmap.org/). Public GPX files uploaded to OpenStreetMap are available on the [Public GPS Traces](https://www.openstreetmap.org/traces) page.
+
+### <i>Not to be used for navigation</i>
 
 * [Block XVI Loop](/assets/Block_XVI_Loop.gpx) (GPX, 23 KB)
 * [Burttons Track](/assets/Burttons_Track.gpx) (GPX, 17 KB)
